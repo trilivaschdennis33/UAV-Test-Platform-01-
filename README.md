@@ -14,9 +14,9 @@ flight controller's precision-landing (PLND) subsystem.
 
 | #  | Milestone                                              | Status   |
 |----|--------------------------------------------------------|----------|
-| M0 | Airframe / Tinkerbell integration (Pixhawk, TELEM2)    | ☐        |
-| M1 | Bench vision pipeline — detect ArUco, output offsets   | ✅ Done  |
-| M2 | Camera calibration — pixels → real-world angles        | ⏳ Next  |
+| M0 | Airframe / Tinkerbell (TBELL) integration (Pixhawk, TELEM2)    | ☐        |
+| M1 | Bench vision pipeline — detect ArUco, output offsets   |  Done  |
+| M2 | Camera calibration — pixels → real-world angles        |  Next  |
 | M3 | MAVLink link — send LANDING_TARGET to Pixhawk (bench)  | ☐        |
 | M4 | Precision Loiter — hold over marker in flight          | ☐        |
 | M5 | Precision Land — autonomous landing + error logging    | ☐        |
@@ -69,7 +69,3 @@ coefficients, turning pixel offsets into real angular offsets.
 ## M2 — Camera calibration ⏳
 *(in progress — notes go here)*
 
----
-
-## M0 — Airframe / Tinkerbell integration ☐
-*(Pixhawk 6C mini, TELEM2 → Pi UART wiring, PLND params — pending hardware access)*
